@@ -304,3 +304,75 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Privacy Policy & Contact Form */
+.privacy-policy,
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.privacy-policy h2,
+.contact-form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #1a202c;
+}
+
+.privacy-policy .last-updated {
+    text-align: center;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.policy-content h3 {
+    font-szie: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.policy-content p,
+.policy-content ul {
+    margin-bottom: 1.5rem;
+    color: #4a5568;
+}
+
+.policy-content ul {
+    padding-left: 1.5rem;
+}
+
+.policy-content a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.policy-content a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1a202c;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
