@@ -10,6 +10,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background: #fff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -62,10 +63,12 @@ nav a:hover {
     color: #1da1f2;
 }
 
+/* Main */
 main {
     margin-top: 80px;
 }
 
+/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
@@ -120,6 +123,7 @@ main {
     height: auto;
 }
 
+/* Features */
 .features {
     background: #f8fafc;
     padding: 4rem 2rem;
@@ -157,6 +161,8 @@ main {
 .feature p {
     color: #4a5568;
 }
+
+/* How it works */
 .how-it-works {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -203,6 +209,8 @@ main {
 .step p {
     color: #4a5568;
 }
+
+/* Use Cases */
 .use-cases {
     background: #f8fafc;
     padding: 4rem 2rem;
@@ -239,6 +247,8 @@ main {
 .use-case p {
     color: #4a5568;
 }
+
+/* Footer */
 footer {
     background: #1a202c;
     color: white;
@@ -265,6 +275,7 @@ footer {
     text-decoration: underline;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -293,6 +304,8 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Privacy Policy & Contact Form */
 .privacy-policy,
 .contact-form {
     max-width: 800px;
