@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Ghost Em - Twitter/X Post & Reply Deleter",
+  "version": "1.0.0",
+  "description": "Twitter/X post and reply deletion tool with filters",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://x.com/*",
+    "*://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*", "*://twitter.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "128": "MagicEraser.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ghost Em - Twitter/X Deleter",
+    "default_icon": {
+      "128": "MagicEraser.png"
+    }
+  },
+  "commands": {
+    "toggle-panel": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G"
+      },
+      "description": "Toggle Ghost Em panel"
+    }
+  }
+}
