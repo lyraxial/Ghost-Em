@@ -13,7 +13,7 @@ Ghost Em is a browser extension that helps you delete your old Twitter/X posts a
 
 ## Installation
 
-1.  Download the extension from the [Chrome Web Store](https://chrome.google.com/webstore) (link to be added).
+1.  Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/ledfjbcpkjdjhhdbbjlbbmnkioklpbbm?utm_source=item-share-cb).
 2.  Add the extension to your Chrome browser.
 
 ## How to Use
